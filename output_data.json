@@ -1,0 +1,63 @@
+[
+    {
+        "obs_id": "1",
+        "entities": []
+    },
+    {
+        "obs_id": "2",
+        "entities": [
+            {
+                "entity": "Sign_symptom",
+                "word": "respiratory",
+                "score": 0.81,
+                "start": 24,
+                "end": 35
+            }
+        ]
+    },
+    {
+        "obs_id": "3",
+        "entities": [
+            {
+                "entity": "Diagnostic_procedure",
+                "word": "mri",
+                "score": 1.0,
+                "start": 0,
+                "end": 3
+            },
+            {
+                "entity": "Sign_symptom",
+                "word": "mass",
+                "score": 1.0,
+                "start": 12,
+                "end": 16
+            },
+            {
+                "entity": "Biological_structure",
+                "word": "lung",
+                "score": 1.0,
+                "start": 29,
+                "end": 33
+            }
+        ]
+    },
+    {
+        "obs_id": "4",
+        "entities": [
+            {
+                "entity": "Diagnostic_procedure",
+                "word": "blood pressure",
+                "score": 1.0,
+                "start": 0,
+                "end": 14
+            },
+            {
+                "entity": "Lab_value",
+                "word": "normal",
+                "score": 1.0,
+                "start": 25,
+                "end": 31
+            }
+        ]
+    }
+]
